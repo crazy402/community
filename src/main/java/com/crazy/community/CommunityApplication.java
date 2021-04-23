@@ -3,6 +3,9 @@ package com.crazy.community;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author crazy402
+ */
 @SpringBootApplication
 public class CommunityApplication {
 
