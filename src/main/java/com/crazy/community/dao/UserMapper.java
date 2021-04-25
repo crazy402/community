@@ -30,7 +30,7 @@ public interface UserMapper {
    */
   User selectByEmail(@Param("email") String email);
 
-  Integer insertUser(User user);
+  Integer insertUser(@Param("user") User user);
 
   Integer updateStatus(@Param("id") Integer id, @Param("status") Integer status);
 
